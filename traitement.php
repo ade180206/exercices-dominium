@@ -12,11 +12,7 @@ if (isset($_POST['envoyer'])) {
         header('Location: sms.php');
         exit();
 
-     } else {
-        $_SESSION['error'] = "Veuillez remplir tous les champs du formulaire.";
-        $error="Veuillez remplir tous les champs du formulaire.";
-        exit();
-    }
+     } 
 
  } else {
     header('Location: form.php');
